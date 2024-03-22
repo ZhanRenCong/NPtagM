@@ -1,0 +1,393 @@
+LOCUS       BGC0002490              5965 bp    DNA     linear   BCT 06-FEB-2015
+DEFINITION  Yersinia pestis CO92 complete genome.
+ACCESSION   BGC0002490
+VERSION     BGC0002490
+KEYWORDS    .
+SOURCE      Yersinia pestis CO92
+  ORGANISM  Yersinia pestis CO92
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Yersiniaceae; Yersinia.
+COMMENT     On or before Sep 27, 2006 this sequence version replaced
+            AJ414141.1, AJ414142.1, AJ414143.1, AJ414144.1, AJ414145.1,
+            AJ414146.1, AJ414147.1, AJ414148.1, AJ414149.1, AJ414150.1,
+            AJ414151.1, AJ414152.1, AJ414153.1, AJ414154.1, AJ414155.1,
+            AJ414156.1, AJ414157.1, AJ414158.1, AJ414159.1, AJ414160.1.
+            Notes:
+            Details of Y. pestis sequencing at the Sanger Centre are available
+            on the World Wide Web.
+            (URL, http://www.sanger.ac.uk/Projects/Y_pestis/)
+            Original CON assembly
+            join(AJ414141.1:1..288050,AJ414142.1:51..214050,
+            AJ414143.1:51..201050,
+            AJ414144.1:51..208050,AJ414145.1:51..208050,AJ414146.1:51..210050,
+            AJ414147.1:51..199050,AJ414148.1:51..210050,AJ414149.1:51..193050,
+            AJ414150.1:51..335050,AJ414151.1:51..334050,AJ414152.1:51..313050,
+            AJ414153.1:51..258050,AJ414154.1:51..204050,AJ414155.1:51..205050,
+            AJ414156.1:51..220050,AJ414157.1:51..216040,AJ414158.1:41..235050,
+            AJ414159.1:51..199050,AJ414160.1:51..203728).
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2022-10-08 16:16:05
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 1507267
+            Orig. end    :: 1513232
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     gene            1..1137
+                     /locus_tag="YPO1343"
+     CDS             1..1137
+                     /codon_start=1
+                     /db_xref="InterPro:IPR002491"
+                     /db_xref="UniProtKB/TrEMBL:Q7CHH1"
+                     /inference="similar to sequence:INSDC:AE001704"
+                     /inference="similar to sequence:INSDC:U52150"
+                     /locus_tag="YPO1343"
+                     /note="Similar to Vibrio cholerae vibriobactin and
+                     enterobactin periplasmic binding protein ViuP TR:Q9RCF6
+                     (EMBL:U52150) (325 aa) fasta scores: E(): 0.00051, 25.9% id
+                     in 259 aa, and to Thermotoga maritima possible iron(III)
+                     ABC transporter, periplasmic iron-binding protein TM0189
+                     TR:Q9WY32 (EMBL:AE001704) (358 aa) fasta scores: E():
+                     0.0025, 24.9% id in 374 aa"
+                     /product="putative periplasmic binding protein"
+                     /protein_id="CAL19995.1"
+                     /transl_table=11
+                     /translation="MIHYNITIKSTRISFMLLRIFWSLCLWWGISSSALAEIHLKDVDG
+                     REVTLAAPAQRVYIGFYYEDFLAINGPDSYQHVVAFSKSDWSLRTSQWPRYQAALRRLS
+                     QLVDVGSLYNQSFDFERLLATRPDLLILAKWQLEGFANYLPVLQQLSIPYVVVDFNQGE
+                     DAKLTSIRVMGQALGHGERAERLAIAYQQGIADIRRRITQANLPSPKTYIELGDKGPGE
+                     YSSSYGSSIWGPLLQQAGANNIATGVVTTPSPLRAEYVLSQKPEVIFLAGGDWPKMPNA
+                     VSMGFGAKPETLQQSMTQYAQRPGWSQFPAIKQTRFYALYHGGVRTLYDYIFVQFVAKA
+                     LFPSAFEDVNPQHNLETFYEEYLPIKADGVFMQQWQGE"
+     subregion       1..5965
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="Other"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..5965
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     misc_feature    223..969
+                     /inference="protein motif:PF01497"
+                     /locus_tag="YPO1343"
+                     /note="Pfam match to entry PF01497 Peripla_BP_2,Periplasmic
+                     binding protein, score 3.20, E-value 0.00018"
+     gene            1288..2193
+                     /locus_tag="YPO1344"
+     CDS             1288..2193
+                     /codon_start=1
+                     /db_xref="GOA:Q0WH71"
+                     /db_xref="InterPro:IPR000522"
+                     /db_xref="InterPro:IPR029022"
+                     /db_xref="UniProtKB/TrEMBL:Q0WH71"
+                     /gene_functions="transport (smcogs) SMCOG1011:transport
+                     system permease protein (Score: 135.1; E-value: 4.5e-41)"
+                     /gene_kind="transport"
+                     /inference="protein motif:TMHMM:2.0"
+                     /inference="similar to sequence:INSDC:AF109162"
+                     /locus_tag="YPO1344"
+                     /note="C-terminal domain similar to C-terminal region of
+                     Corynebacterium diphtheriae putative iron acquisition
+                     protein HmuU TR:Q9XD88 (EMBL:AF109162) (350 aa) fasta
+                     scores: E(): 7.4e-17, 36.7% id in 169 aa, and to
+                     Methanococcus jannaschii putative ABC transporter permease
+                     protein Mj0087 SW:Y087_METJA (Q57552) (349 aa) fasta
+                     scores: E(): 3.4e-20, 36.2% id in 185 aa"
+                     /product="FecCD transport family protein"
+                     /protein_id="CAL19996.1"
+                     /transl_table=11
+                     /translation="MMYCDCFWWILRSMMNYTRSFLVHSFADDVNRRGGGREFGFGWLV
+                     DANRTGESVSQSLYLGDFSRGRIWCRIIDHHWLQRGGSLVIRHPIIGFTDGITGLPAHL
+                     LSGPTAGDDTANSGVERHCGAVLLPVVAITHVISASPEAMQQIVFWLFGSLLKANMQGV
+                     LMTGSVLACSLVICLQQAWRLTALSAGEEQALGLGINVSALRKLAFLLATLLTAASVSF
+                     VGTIGFIGLVAPHFARMLVGEDQRYLIGISALCGSLLLVLASIISKLILPNGVVPIGII
+                     IALIGVPVLFYFVTKQVKRA"
+     misc_feature    1483..2175
+                     /inference="protein motif:PF01032"
+                     /locus_tag="YPO1344"
+                     /note="Pfam match to entry PF01032 FecCD_family, FecCD
+                     transport family, score 64.60, E-value 2.1e-15"
+     misc_feature    1927..1995
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1344"
+                     /note="one of 3 probable transmembrane helices predicted"
+     misc_feature    2029..2097
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1344"
+                     /note="one of 3 probable transmembrane helices predicted"
+     misc_feature    2110..2169
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1344"
+                     /note="one of 3 probable transmembrane helices predicted"
+     gene            2190..2975
+                     /locus_tag="YPO1345"
+     CDS             2190..2975
+                     /codon_start=1
+                     /db_xref="GOA:Q7CHH2"
+                     /db_xref="InterPro:IPR003439"
+                     /db_xref="InterPro:IPR003593"
+                     /db_xref="InterPro:IPR017871"
+                     /db_xref="InterPro:IPR027417"
+                     /db_xref="UniProtKB/TrEMBL:Q7CHH2"
+                     /gene_functions="transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 156; E-value:
+                     2.1e-47)"
+                     /gene_kind="transport"
+                     /inference="similar to sequence:INSDC:AL445963"
+                     /locus_tag="YPO1345"
+                     /note="Similar to Escherichia coli ferrichrome transport
+                     ATP-binding protein FhuC SW:FHUC_ECOLI (P07821) (265 aa)
+                     fasta scores: E(): 2.7e-22, 32.8% id in 259 aa, and to
+                     Streptomyces coelicolor Fe uptake system permease FtrE
+                     TR:CAC14366 (EMBL:AL445963) (272 aa) fasta scores: E():
+                     8.8e-22, 34.2% id in 260 aa"
+                     /product="putative transport ATP-binding protein"
+                     /protein_id="CAL19997.1"
+                     /transl_table=11
+                     /translation="MTQLTLKHVGVTLHKRPLLTDISLTWPAAQVSGIIGPNGAGKSTL
+                     LKAINHMVPITGQIEYQQCPLNTRVTRIAYVSQLNRSDSALTVFEMVLLGKVRQLSWRV
+                     SPAQIDAVEQVLAECGISSLANQVFNSLSGGQRQLVMLAQAFIAQPQIILLDEPTSALD
+                     IHHQLRVLQKIVDYSKRHQCTTLMVIHDLGLALRFCQTLTLIHRGNVACHGAAHQVIAD
+                     PMMSTVFGVGIESGTSPLGYRYLLPTQFLPTHGEKICIR"
+     misc_feature    2274..2813
+                     /inference="protein motif:PF00005"
+                     /locus_tag="YPO1345"
+                     /note="Pfam match to entry PF00005 ABC_tran, ABC
+                     transporter, score 151.00, E-value 2.1e-41"
+     misc_feature    2295..2318
+                     /inference="protein motif:ProSite:PS00017"
+                     /locus_tag="YPO1345"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     misc_feature    2583..2627
+                     /inference="protein motif:ProSite:PS00211"
+                     /locus_tag="YPO1345"
+                     /note="PS00211 ABC transporters family signature."
+     gene            2972..3760
+                     /locus_tag="YPO1346"
+     CDS             2972..3760
+                     /codon_start=1
+                     /db_xref="GOA:Q0WH69"
+                     /db_xref="InterPro:IPR004298"
+                     /db_xref="InterPro:IPR016040"
+                     /db_xref="UniProtKB/TrEMBL:Q0WH69"
+                     /inference="similar to sequence:INSDC:AE004896"
+                     /locus_tag="YPO1346"
+                     /note="Similar to Pseudomonas aeruginosa hypothetical
+                     protein PA4836 TR:AAG08221 (EMBL:AE004896) (263 aa) fasta
+                     scores: E(): 4e-21, 34.4% id in 259 aa"
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAL19998.1"
+                     /transl_table=11
+                     /translation="MMKADVLAQLAGLQQEISQLHDNAQQNQSHFVLLERRFSRLQSFN
+                     DEPQLQDYRLQLEHDDAVVKQIAQLRQVANAALCDYEKHQVCALCSPSSKTDDYLTSFN
+                     QSLQQEIKLAGMQMGEKVLLVGSGALPTTALVLVAKLGATVFCYDHDPAAQQLARQLVQ
+                     SLGLEKQVQFIDNLKELTDRPVDHIIVASLVADKQALLAQLVPYVTRSSKLVMRYGNGL
+                     KSIFNCPYCHEVNCSHWRTASKPVTTGLYDLIILEPNHHA"
+     gene            3753..5123
+                     /locus_tag="YPO1347"
+     CDS             3753..5123
+                     /codon_start=1
+                     /db_xref="InterPro:IPR016040"
+                     /db_xref="InterPro:IPR016935"
+                     /db_xref="UniProtKB/TrEMBL:Q0WH68"
+                     /inference="similar to sequence:INSDC:AE004896"
+                     /inference="similar to sequence:INSDC:AP001514"
+                     /locus_tag="YPO1347"
+                     /note="Similar to Pseudomonas aeruginosa hypothetical
+                     protein PA4835 TR:AAG08220 (EMBL:AE004896) (433 aa) fasta
+                     scores: E(): 0, 40.0% id in 447 aa, and to Bacillus
+                     halodurans hypothtetical protein BH2073 TR:Q9KB58
+                     (EMBL:AP001514) (436 aa) fasta scores: E(): 3.7e-26, 30.0%
+                     id in 414 aa"
+                     /product="putative exported protein"
+                     /protein_id="CAL19999.1"
+                     /transl_table=11
+                     /translation="MHNTLPTLILGAGPAAIQLAVDISATGDARLGLYNRPSTKGERLK
+                     QYLALTPTLYLQGTGKAQATQKESSVTIDCYIDQLAQAVGDWQRLILAVPADHYYAVLQ
+                     QIPWAALPQLKSVILLSSSMGSGLMVQNLLNAAGKRDVEVISLSSYYADTKYIRAETQD
+                     ISANTQDINAGTQDIGAIQPYRAYTKAFKQRIYLANQWGNAGSAEMSWLTAVLARHHID
+                     TLPCSNLLAAERFSITNYVHPPLALADTTLQALFYPEQRSQYLYKTQPEGPVCPAVIAD
+                     LAGLADDYKRLLNRLGVEEINLLRFLNDDNYPVPASMVSRRWIDEFPQLPPLEQQYALF
+                     VRYTALLVDPYSTPDEQGRFYDFSAVKVATVYQDANALWHLPRVPLEDVHKLRTLLLLA
+                     GALDVVMPTAQRLLQRFQQALKAFIDRVGEEHCHPSLLGDDCDRQAAIIEQQWRSQT"
+     gene            5120..5965
+                     /locus_tag="YPO1348"
+     CDS             5120..5965
+                     /codon_start=1
+                     /db_xref="GOA:Q0WH67"
+                     /db_xref="InterPro:IPR000620"
+                     /db_xref="UniProtKB/TrEMBL:Q0WH67"
+                     /gene_functions="transport (smcogs) SMCOG1166:transporter,
+                     EamA family (Score: 74; E-value: 2.2e-22)"
+                     /gene_kind="transport"
+                     /inference="protein motif:TMHMM:2.0"
+                     /inference="similar to sequence:INSDC:AE004691"
+                     /inference="similar to sequence:INSDC:AE004896"
+                     /locus_tag="YPO1348"
+                     /note="Similar to Pseudomonas aeruginosa hypothetical
+                     protein PA4834 TR:AAG08219 (EMBL:AE004896) (284 aa) fasta
+                     scores: E(): 0, 55.7% id in 280 aa, and to Pseudomonas
+                     aeruginosa hypothetical protein PA2628 TR:AAG06016
+                     (EMBL:AE004691) (296 aa) fasta scores: E(): 6.6e-28, 33.2%
+                     id in 283 aa"
+                     /product="putative membrane protein"
+                     /protein_id="CAL20000.1"
+                     /transl_table=11
+                     /translation="MNQGALLAILASLIFSVMNVLVKTIADEIPTGEIVFFRSSIGCLL
+                     IGLLMYQRGIAFSREDRPLLVLRGTMGALYLICYFYSIAHLTLADASMLAYLSPFFSIV
+                     LSLLVLRERVNATMAFWLVMVIIGAIILIRPWNFSTYTLASLVGVMSAVFAAIAYLSVN
+                     KLTKRHHNYEIVFYFLFITTLISIPLMWHNFVWPSGYQFGILIAIALVSLLGQVVLTQA
+                     FSSDNLIVVSVVRYIGIVFNITWGWLFWDEVPLMLSLMGGGLVVVSCIQLGLRSKKKAA
+                     "
+     misc_feature    5156..5521
+                     /inference="protein motif:PF00892"
+                     /locus_tag="YPO1348"
+                     /note="Pfam match to entry PF00892 DUF6, Integral membrane
+                     protein DUF6, score 62.70, E-value 7.6e-15"
+     misc_feature    5222..5290
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5309..5377
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5390..5449
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5468..5527
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5537..5605
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5576..5941
+                     /inference="protein motif:PF00892"
+                     /locus_tag="YPO1348"
+                     /note="Pfam match to entry PF00892 DUF6, Integral membrane
+                     protein DUF6, score 27.20, E-value 0.00038"
+     misc_feature    5639..5707
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5720..5788
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5801..5869
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+     misc_feature    5882..5941
+                     /inference="protein motif:TMHMM:2.0"
+                     /locus_tag="YPO1348"
+                     /note="one of 9 probable transmembrane helices predicted"
+ORIGIN
+        1 ttgatacatt ataacataac aatcaaatca acgagaatat cctttatgtt attacgtatt
+       61 ttttggagtt tatgcctctg gtgggggatc agcagcagtg cgctggcaga gatccatctc
+      121 aaagatgttg atggtcgtga ggtcactctg gcggcaccag cacaacgtgt ttatatcggt
+      181 ttttattatg aggatttttt ggcgatcaat gggccagaca gttatcaaca tgtcgtggcc
+      241 ttctctaaaa gtgattggag cctacggacc agccaatggc cgcgctatca ggcagcccta
+      301 cggcgtttaa gccaattggt ggatgttggg tctttgtata accaaagttt tgactttgag
+      361 cgcctgctgg cgacccggcc agatttactg attttggcaa aatggcaact cgaaggtttc
+      421 gccaactatt tgccggtatt acagcaactc tctattccct atgtcgtggt cgattttaat
+      481 cagggagagg acgctaagct caccagtatt cgggtaatgg ggcaagcatt aggtcatggc
+      541 gaacgggctg aacgcttggc catcgcctat caacaaggca ttgcagatat tcgcagacga
+      601 attacccaag cgaatttgcc ctcgccgaaa acctatattg aactcggcga taaagggccg
+      661 ggtgaataca gcagcagcta tgggtcgtct atttgggggc ccttgcttca acaggccgga
+      721 gccaacaata tcgcgacagg cgtggtcacc acgccttccc cactgcgcgc agagtatgtg
+      781 ttatctcaga aacccgaggt aatttttctg gcgggcggag actggccgaa aatgccgaat
+      841 gcggtgtcga tggggtttgg tgccaaacct gaaaccctcc agcaaagtat gacccaatat
+      901 gctcagcgtc ccggctggtc acaatttccc gcgattaaac aaacacgttt ttacgcgctc
+      961 tatcatggcg gcgtccgcac gttgtacgac tacatttttg tgcagtttgt cgccaaggcg
+     1021 ctttttcctt cggcgtttga agatgtgaac ccgcaacata atctcgaaac gttttatgaa
+     1081 gagtatctgc ccatcaaagc cgatggcgta tttatgcagc aatggcaggg agaataatgg
+     1141 caaccttttt agagcccatc acgcagggac ggcaatcttt tcagcaactt catctacgac
+     1201 gcgggttatt cacactggca ttgatcggct cgctactggc cgctatggtc atcgatctgg
+     1261 ccactggcgc ggccaacctt agcccacttg atgtattgcg actgtttctg gtggattctt
+     1321 cgcagcatga tgaactacac cagatcattt ttggtccatt cgtttgccga tgacgttaac
+     1381 cgccgtggtg gtgggcgcga gtttgggttt ggctggcttg ttgatgcaaa ccgtactggc
+     1441 gaatccgtta gccagtcctt ataccttggg gatttcagcc gcggcaggat ttggtgccgc
+     1501 attatcgatc atcactggct tcagcgtggg gggagtcttg tcattaggca ccccattatt
+     1561 ggcttcactg atggcattac tggcctgcct gcccatttac tttctgggcc aacggcaggg
+     1621 gatgacaccg caaattctgg tgttgagcgg cattgtggtg ctgttcttct tccagtcgtt
+     1681 gcaatcactc atgttatttc ggcctcacca gaagcgatgc aacaaattgt attctggctg
+     1741 tttggcagcc tgctaaaagc caatatgcag ggggtgctaa tgacgggcag cgtactggct
+     1801 tgttcactgg ttatctgttt gcagcaggca tggcgattga ccgcgctttc agcgggggag
+     1861 gagcaagcgc taggtttggg gattaacgta agcgccttac gtaagttagc gtttcttctg
+     1921 gcgaccttgt tgaccgccgc ctctgtgtct tttgtcggca ctatcggctt tatcggtttg
+     1981 gtcgcccctc acttcgcccg tatgttggtc ggcgaagatc aacgctatct gatcggtatt
+     2041 tcggcacttt gtggcagcct gctattggtt ctggcctcta tcatttccaa actcatactg
+     2101 ccaaatggtg tcgtgccgat cggcattatt attgcgctga tcggtgtccc ggtattgttc
+     2161 tattttgtga ctaaacaggt gaaacgggca tgacgcaact gacgttaaag cacgtcggcg
+     2221 tcacgcttca taaacgccca ctgctcaccg atatttctct aacgtggcct gcggcacagg
+     2281 tgagcggcat tattggcccc aatggggcgg gcaaatccac gttactcaaa gccattaacc
+     2341 acatggtccc cattaccggg cagatcgaat atcaacagtg cccactgaat acgcgcgtca
+     2401 cacgcatcgc ctatgtgtcc caactcaatc gtagtgattc tgccctgacc gtttttgaaa
+     2461 tggtcctgct gggtaaagtt cgccaattga gctggcgtgt cagccccgca caaattgatg
+     2521 cggtcgagca ggtattggca gagtgcggca tttcctctct ggcaaaccaa gttttcaaca
+     2581 gtctaagtgg cgggcaacgc cagttagtga tgctcgcgca ggctttcatc gctcagccgc
+     2641 agatcatttt gctggatgaa ccgaccagcg ccctggatat tcaccaccaa ttacgtgtgc
+     2701 tgcaaaaaat cgtcgattac agcaaacgcc accaatgcac cacattaatg gtgatccacg
+     2761 atctgggctt ggcgctgcgc ttttgccaaa cgctcacgtt aatccaccgt ggaaatgttg
+     2821 cctgtcatgg cgcagcccat caggtgatcg cggaccccat gatgtccacc gtatttggtg
+     2881 tgggtatcga aagtggaaca agccctttgg gctatcgcta cttattgccc actcagttct
+     2941 tacctactca tggagagaaa atatgtatac gttgatgaaa gccgatgtgc tggctcaact
+     3001 cgcggggctg cagcaagaaa tcagccagtt acacgataat gcccagcaaa atcagtctca
+     3061 ttttgtgttg ttagagcgcc gttttagtcg cttgcagtct tttaatgacg agccacagct
+     3121 acaagattac cggttgcagt tggagcacga tgatgcggtg gtaaaacaaa ttgcccaatt
+     3181 gcggcaggtc gccaatgcgg cactgtgtga ctatgaaaaa catcaggtat gcgccttgtg
+     3241 tagcccatcc tccaagactg acgactacct gacaagtttt aaccaatcgc tgcaacaaga
+     3301 gatcaaactc gccggtatgc agatgggtga gaaggtgttg ttggtgggca gcggtgcctt
+     3361 gccgaccacg gcgctggtac tggttgccaa gctcggtgca accgtctttt gctacgatca
+     3421 cgatcccgcc gcacagcagt tagctcgcca gctcgttcaa tccctcggtc tggaaaaaca
+     3481 ggtgcaattt attgataacc tgaaagagtt aacggaccgt cccgttgacc acattatcgt
+     3541 cgcttcattg gtggcggata aacaggcgtt attagcacaa ttggttccct atgtgacccg
+     3601 gtccagcaaa ttagtgatgc gctatggcaa tgggctgaag tctattttca actgccctta
+     3661 ttgccatgag gtgaactgtt cacattggcg caccgccagt aaaccggtga ccaccgggct
+     3721 ttatgacctt atcattttgg aacctaatca tcatgcataa caccctgccg accttgattc
+     3781 tgggggccgg gcctgcggct atccaacttg cggtggatat tagtgctaca ggtgatgcta
+     3841 ggttggggct ctataatcgg cccagcacga aaggcgaacg gttaaagcag tatctggcac
+     3901 tcacgccgac cctttatttg cagggtaccg gcaaggcaca agcgacccag aaagagagca
+     3961 gtgtcacgat tgattgctat atcgatcaat tggcgcaggc ggttggtgat tggcaacgtt
+     4021 tgattctggc agtccctgcc gatcactatt acgccgtcct acaacagatt ccgtgggccg
+     4081 cgttaccaca attaaagtca gtgattttac tgtcctcttc gatgggttcc ggcctgatgg
+     4141 tgcagaatct gttaaacgcc gcggggaagc gcgatgtcga ggtcatcagc ctgtccagtt
+     4201 attatgcgga tactaaatat attcgcgctg aaacccaaga cattagcgct aatacccaag
+     4261 acattaatgc tggaacccaa gacattggcg ctatacagcc ttatcgggcg tataccaaag
+     4321 catttaaaca gcggatatat ctggccaatc agtggggtaa tgcgggatcg gcagagatga
+     4381 gctggttaac ggcggtatta gcccgccacc acattgacac cttaccgtgt tctaacttgt
+     4441 tggccgccga gcgttttagc attaccaatt atgtccatcc tcctttggcg ctggcggata
+     4501 ccacgttgca ggcgctgttc tatccagagc aacgtagcca gtatctgtat aaaacccaac
+     4561 cagaagggcc ggtctgtccg gcggtgattg cggatttagc gggtttggcc gatgactata
+     4621 aaaggctcct caaccggcta ggggtggaag aaatcaactt gctacgtttt ctcaatgacg
+     4681 ataactatcc ggtgcctgcc tccatggtca gtcgtcgctg gattgacgaa tttccacagc
+     4741 ttccccctct tgagcagcaa tacgcactgt ttgttcgtta taccgccttg ttagtggacc
+     4801 cgtactctac accggatgaa caaggccgat tctatgactt ttcggcggtc aaggtggcca
+     4861 cggtatatca agacgcgaat gcgctgtggc atttgccgcg agtgccgctg gaggatgttc
+     4921 acaaattgcg aacgctgcta ttactggcgg gcgcgctgga tgtggtgatg cccacagcgc
+     4981 agcggctgct acagcgattc cagcaggcgc tcaaggcgtt tattgaccgg gtcggtgagg
+     5041 aacattgcca tccctcttta ttgggggacg attgtgacag gcaggcggcc atcatcgaac
+     5101 aacaatggcg gagccagaca tgaaccaagg cgcgttattg gctattctcg cctccctgat
+     5161 tttcagcgtg atgaatgtgt tagtcaaaac catcgctgat gaaattccta ccggtgagat
+     5221 cgtattcttc cgcagtagca ttggttgctt gttgattggg ttactgatgt atcagcgtgg
+     5281 gatagcgttc agccgtgaag atcgcccatt gttggtactc cgggggacga tgggcgcact
+     5341 gtatctgatt tgctattttt acagtattgc tcacctgaca ttggcagatg ccagcatgtt
+     5401 ggcctatctg tcaccgtttt tctcgattgt gctgtcatta ttagtgttgc gcgaacgggt
+     5461 gaatgccacc atggctttct ggttggtgat ggtgattatt ggcgcgatta tcttgatccg
+     5521 cccgtggaat ttttccacct atacgttggc gtctctggtg ggggtgatga gtgcggtatt
+     5581 tgcggctatt gcttatttgt cggtgaataa gctcacgaag cgccatcaca attatgaaat
+     5641 cgtcttctac tttttgttta tcacgacgct gatctctatc ccactgatgt ggcataactt
+     5701 tgtttggccg agtgggtatc agttcggcat tctcatcgcc attgctcttg tctcattgct
+     5761 aggtcaggtg gttttaacgc aggctttctc ttcggacaac ctgatcgtgg tgtcggtggt
+     5821 gcgctatatc ggcattgtct tcaatattac ctggggctgg ctattttggg atgaggtgcc
+     5881 attgatgttg tcgttgatgg ggggcgggtt ggtggtggta tcgtgcattc agttggggtt
+     5941 acgcagtaaa aagaaggcgg cctga
+//

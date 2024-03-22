@@ -1,0 +1,109 @@
+LOCUS       BGC0002099              1920 bp    DNA     linear   BCT 15-FEB-2021
+DEFINITION  Planomonospora sp. strain ID107089 YFH peptide (bytA), putative
+            cytochrome P450 (bytO), and hypothetical protein genes, complete
+            cds.
+ACCESSION   BGC0002099
+VERSION     BGC0002099
+KEYWORDS    .
+SOURCE      Planomonospora sp
+  ORGANISM  Planomonospora sp.
+            Bacteria; Actinobacteria; Streptosporangiales; Streptosporangiaceae;
+            Planomonospora; unclassified Planomonospora.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2022-10-08 14:53:55
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 1920
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1920
+                     /db_xref="taxon:2028102"
+                     /mol_type="genomic DNA"
+                     /organism="Planomonospora sp."
+                     /strain="ID107089"
+     subregion       1..1920
+                     /aStool="mibig"
+                     /contig_edge="True"
+                     /label="RiPP"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..1920
+                     /contig_edge="True"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            254..271
+                     /gene="bytA"
+     CDS             254..271
+                     /codon_start=1
+                     /gene="bytA"
+                     /product="YFH peptide"
+                     /protein_id="QRM13815.1"
+                     /transl_table=11
+                     /translation="MRYFH"
+     gene            368..1504
+                     /gene="bytO"
+     CDS             368..1504
+                     /codon_start=1
+                     /gene="bytO"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1007:cytochrome P450 (Score: 224.3; E-value: 4e-68)"
+                     /gene_kind="biosynthetic-additional"
+                     /product="putative cytochrome P450"
+                     /protein_id="QRM13816.1"
+                     /sec_met_domain="p450 (E-value: 1.7e-17, bitscore: 50.9,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MFTPLAPEMLRDPYPRYAELRREAPVQWFEPLRAWLVLRHADCTR
+                     VVTDSTTFSNDLAVLGEDPPTEILGLQNLDPPEHTSVRHALVRALKSVDVGVWARESAG
+                     HAERLLADADLNGFDFVSEFAEPLSAESMRILFGVPDFGAPDEFHAAQRALVLSMDAGL
+                     EPERGAPGVRARDHLSGVLEPWVMRPPKNGLLSGVDIASAGRLRRYLVNSLRQILVAGF
+                     SSSSSMLGLALKTLIEQGLLDRDEPLAVTPTVYNEVVRHSGAVQVDSRACAQDVELGGQ
+                     LIRRGDEVVAVIAAANRDPDVFERPDDLVVDRSPNPHLGFGRGVHSCLGTALATVLHAQ
+                     VLTTLSERYRVRLSGTPVMRPTATLHGLDRLPVALLPR"
+     CDS             complement(1617..1832)
+                     /codon_start=1
+                     /note="PLM089_2118"
+                     /product="hypothetical protein"
+                     /protein_id="QRM13817.1"
+                     /transl_table=11
+                     /translation="MRIPGTDRIRLIAIAETDGLGAAPGFVPRPPGLVAATREDGDLIA
+                     VTRTHTLTVGPRIPEHPPYGSGETAR"
+ORIGIN
+        1 cgttttcccg cggaggcgac cggccgtcgt agccgttgag ccacgcggcg gggtttctcc
+       61 tcgatgtgag gcatggctga ggtgaagttt accgaccgcg cctcccggtc gaggatatat
+      121 cactcgacca tccggttccg cgcgagtgtt atatccctta tgtcggaacg agtacgtagc
+      181 attgccaccg gatcgcacga tatatccagt cccggaaaaa gccattccgg tcatccgctt
+      241 caggaggtgt gcgatgcgct acttccactg atccgtcatt ttccgaattc gatgggccgg
+      301 tccgcgccgc cgcggcgggc ggaccggctc gcaaacggat ctccgcctag gacgaaggaa
+      361 cgacgcggtg ttcacacccc ttgcgccgga aatgctgcgc gacccgtatc cgaggtacgc
+      421 cgagctgcgc cgtgaggcgc ccgtgcagtg gttcgagccg ctgcgggcat ggctggttct
+      481 gcggcatgcg gactgcacac gggtggtcac cgactcgacc accttcagca acgatctggc
+      541 ggtgctgggc gaagatccgc cgacggagat cctgggtctg cagaacctcg atccacccga
+      601 gcacacctcg gtacggcatg cgctggtgcg agccctcaag agcgtggacg tcggcgtctg
+      661 ggcacgcgag agcgccgggc acgcggagcg gttgctcgcg gatgcggacc tgaacggctt
+      721 cgacttcgtg tcggagttcg ccgaaccgct gtctgcggag agcatgcgca tcctgttcgg
+      781 cgtccccgac ttcggcgccc ccgatgagtt ccacgccgca cagcgtgcac tggttctcag
+      841 catggacgcc ggactggagc cggagcgcgg cgccccgggc gtgcgggctc gcgaccacct
+      901 gtccggcgtg ctggaaccct gggtgatgcg gccgccgaag aacggcctgc tcagcggggt
+      961 cgacatcgcc tccgccggac gcctgcgccg ctacctggtg aactccctgc gccagatact
+     1021 cgtagccggc ttctcctcat ccagcagcat gctgggcctg gccctgaaga cgctgatcga
+     1081 gcagggtctg ctcgaccgcg acgagccgct ggcggtgaca ccgaccgtct acaacgaggt
+     1141 ggtccgccac tcgggtgcgg tgcaggtgga cagccgggcg tgcgcacagg acgttgagct
+     1201 gggcgggcag ctcatccggc gcggcgatga ggtggtggcc gtcatcgcgg cggccaaccg
+     1261 tgatcccgat gtcttcgagc ggccggacga cttggtcgtg gaccggtccc ccaacccgca
+     1321 cctcggcttc ggccggggcg ttcactcctg cctgggcacc gccttggcga cggtgttgca
+     1381 cgcgcaggtg ctgaccacgc tgtccgagcg ctatcgcgtc cggctcagcg ggacaccggt
+     1441 gatgcgcccg accgccacct tgcacgggct cgaccggctc ccggtcgccc tgctcccccg
+     1501 atagggcccg tctcagaagc cgatcacgct gcggccctcg cttcttccgg ctcagggccc
+     1561 gggggctctt tcggctcagg gcccgggggc cgggtcctga cgaggtgcgc ccggagtcat
+     1621 cgtgcggtct cgcccgagcc gtacggcggg tgttccggaa ttcgggggcc cacggtcagg
+     1681 gtgtgagtgc gggtgaccgc gatgaggtcg ccgtcctccc tggtggcggc gaccaggccg
+     1741 ggaggcctgg ggacgaagcc cggtgccgcg cccagcccgt cggtctcggc gatggcgatg
+     1801 aggcggatcc ggtccgttcc cggtatgcgc acggtgatcc ggacccccgg gcggggacgc
+     1861 cgcggaagcg gatctccgag ggccaggtgc cggtccgctc tccggtgacg ggcacgctcg
+//

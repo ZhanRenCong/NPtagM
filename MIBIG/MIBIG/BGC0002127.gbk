@@ -1,0 +1,219 @@
+LOCUS       BGC0002127              3014 bp    DNA     linear   CON 06-FEB-2015
+DEFINITION  Streptomyces coelicolor A3(2) complete genome.
+ACCESSION   BGC0002127
+VERSION     BGC0002127
+KEYWORDS    .
+SOURCE      Streptomyces coelicolor A3(2)
+  ORGANISM  Streptomyces coelicolor A3(2)
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces; Streptomyces albidoflavus group.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2022-10-08 15:01:47
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 1277477
+            Orig. end    :: 1280491
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..3014
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="Polyketide"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..3014
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            148..1272
+                     /gene="SCO1206"
+                     /gene_synonym="2SCG58.06"
+     CDS             148..1272
+                     /codon_start=1
+                     /db_xref="GOA:Q9FCA7"
+                     /db_xref="InterPro:IPR001099"
+                     /db_xref="InterPro:IPR011141"
+                     /db_xref="InterPro:IPR012328"
+                     /db_xref="InterPro:IPR016038"
+                     /db_xref="InterPro:IPR016039"
+                     /db_xref="PDB:1U0M"
+                     /gene="SCO1206"
+                     /gene_functions="biosynthetic (rule-based-clusters) T3PKS:
+                     Chal_sti_synt_N"
+                     /gene_functions="biosynthetic (rule-based-clusters) T3PKS:
+                     Chal_sti_synt_C"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1024:chalcone and stilbene synthase domain protein
+                     (Score: 387.2; E-value: 9.4e-118)"
+                     /gene_kind="biosynthetic"
+                     /gene_synonym="2SCG58.06"
+                     /note="2SCG58.06, possible polyketide synthase, len: 374
+                     aa; highly similar to TR:Q54240 (EMBL:AB018074)
+                     Streptomyces griseus ORF-1 protein similar to chalcone
+                     synthase, 372 aa; fasta scores: opt: 1769 z-score: 1998.4
+                     E(): 0; 70.4% identity in 361 aa overlap and to
+                     SW:CHSJ_PETHY (EMBL:X14597) Petunia hybrida chalcone
+                     synthase J (EC 2.3.1.74) ChsJ, 389 aa; fasta scores: opt:
+                     412 z-score: 469.3 E(): 1.1e-18; 29.5% identity in 312 aa
+                     overlap. Contains Pfam match to entry PF00195
+                     Chal_stil_synt, Chalcone and stilbene synthases"
+                     /product="putative polyketide synthase"
+                     /protein_id="CAC01488.1"
+                     /sec_met_domain="Chal_sti_synt_N (E-value: 6e-19, bitscore:
+                     56.5, seeds: 21, tool: rule-based-clusters)"
+                     /sec_met_domain="Chal_sti_synt_C (E-value: 3.8e-23,
+                     bitscore: 70.4, seeds: 21, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MATLCRPSVSVPEHVITMEETLELARRRHTDHPQLPLALRLIENT
+                     GVRTRHIVQPIEDTLEHPGFEDRNKVYEREAKSRVPAVIQRALDDAELLATDIDVIIYV
+                     SCTGFMMPSLTAWLINEMGFDSTTRQIPIAQLGCAAGGAAINRAHDFCTAYPEANALIV
+                     ACEFCSLCYQPTDLGVGSLLCNGLFGDGIAAAVVRGRGGTGVRLERNGSYLIPKTEDWI
+                     MYDVKATGFHFLLDKRVPATMEPLAPALKELAGEHGWDASDLDFYIVHAGGPRILDDLS
+                     TFLEVDPHAFRFSRATLTEYGNIASAVVLDALRRLFDEGGVEEGARGLLAGFGPGITAE
+                     MSLGCWQTADVRRGIRQDVTRTAARGVSRRVRQA"
+     misc_feature    265..1167
+                     /gene="SCO1206"
+                     /gene_synonym="2SCG58.06"
+                     /note="Pfam match to entry PF00195 Chal_stil_synt, Chalcone
+                     and stilbene synthases, score 117.50, E-value 1.4e-33"
+     regulatory      1260..1263
+                     /gene="SCO1206"
+                     /gene_synonym="2SCG58.06"
+                     /regulatory_class="ribosome_binding_site"
+     gene            1269..2483
+                     /gene="SCO1207"
+                     /gene_synonym="2SCG58.07"
+     CDS             1269..2483
+                     /codon_start=1
+                     /db_xref="GOA:Q9FCA6"
+                     /db_xref="InterPro:IPR001128"
+                     /db_xref="InterPro:IPR002397"
+                     /db_xref="InterPro:IPR017972"
+                     /db_xref="PDB:1S1F"
+                     /db_xref="PDB:1SE6"
+                     /db_xref="PDB:1T93"
+                     /db_xref="PDB:2D09"
+                     /db_xref="PDB:2D0E"
+                     /db_xref="PDB:3TNK"
+                     /db_xref="PDB:3TZO"
+                     /gene="SCO1207"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1007:cytochrome P450 (Score: 379.8; E-value:
+                     2.4e-115)"
+                     /gene_kind="biosynthetic-additional"
+                     /gene_synonym="2SCG58.07"
+                     /note="2SCG58.07, probable cytochrome P450, len: 404 aa;
+                     similar to SW:CPXF_STRGO (EMBL:M32239) Streptomyces
+                     griseolus cytochrome P450-Su2 (EC 1.14.-.-) SubC, 402 aa;
+                     fasta scores: opt: 791 z-score: 895.3 E(): 0; 37.1%
+                     identity in 412 aa overlap and to TR:CAB88975
+                     (EMBL:AL353864) Streptomyces coelicolor cytochrome P450
+                     SC8F11.24c, 407 aa; fasta scores: opt: 1736 z-score: 1959.5
+                     E(): 0; 61.2% identity in 407 aa overlap. Contains Pfam
+                     match to entry PF00067 p450, Cytochrome P450 and match to
+                     Prosite entry PS00086 Cytochrome P450 cysteine heme-iron
+                     ligand signature"
+                     /product="putative cytochrome P450"
+                     /protein_id="CAC01489.1"
+                     /sec_met_domain="p450 (E-value: 3.6e-21, bitscore: 63.4,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTEETISQAVPPVRDWPAVDLPGSDFDPVLTELMREGPVTRISLP
+                     NGEGWAWLVTRHDDVRLVTNDPRFGREAVMDRQVTRLAPHFIPARGAVGFLDPPDHTRL
+                     RRSVAAAFTARGVERVRERSRGMLDELVDAMLRAGPPADLTEAVLSPFPIAVICELMGV
+                     PATDRHSMHTWTQLILSSSHGAEVSERAKNEMNAYFSDLIGLRSDSAGEDVTSLLGAAV
+                     GRDEITLSEAVGLAVLLQIGGEAVTNNSGQMFHLLLSRPELAERLRSEPEIRPRAIDEL
+                     LRWIPHRNAVGLSRIALEDVEIKGVRIRAGDAVYVSYLAANRDPEVFPDPDRIDFERSP
+                     NPHVSFGFGPHYCPGGMLARLESELLVDAVLDRVPGLKLAVAPEDVPFKKGALIRGPEA
+                     LPVTW"
+     misc_feature    1551..2435
+                     /gene="SCO1207"
+                     /gene_synonym="2SCG58.07"
+                     /note="Pfam match to entry PF00067 p450, Cytochrome P450,
+                     score 144.70, E-value 4e-40"
+     misc_feature    2304..2333
+                     /gene="SCO1207"
+                     /gene_synonym="2SCG58.07"
+                     /note="PS00086 Cytochrome P450 cysteine heme-iron ligand
+                     signature"
+     gene            2480..3013
+                     /gene="SCO1208"
+                     /gene_synonym="2SCG58.08"
+     CDS             2480..3013
+                     /codon_start=1
+                     /db_xref="GOA:Q9FCA5"
+                     /db_xref="InterPro:IPR006045"
+                     /db_xref="InterPro:IPR011051"
+                     /db_xref="InterPro:IPR014710"
+                     /db_xref="UniProtKB/TrEMBL:Q9FCA5"
+                     /gene="SCO1208"
+                     /gene_synonym="2SCG58.08"
+                     /note="2SCG58.08, hypothetical protein, len: 177 aa;
+                     similar to TR:CAB92104 (EMBL:AL356334) Streptomyces
+                     coelicolor hypothetical 21.7 kD protein SCD69.03, 200 aa;
+                     fasta scores: opt: 195 z-score: 238.2 E(): 8.4e-06; 31.7%
+                     identity in 164 aa overlap"
+                     /product="hypothetical protein"
+                     /protein_id="CAC01490.1"
+                     /transl_table=11
+                     /translation="MSGLVAAAEGLLVPPGQGRVVQAPAQHVTFKVTGSHSRMASTFEV
+                     IVPPGFDVGAHVHSRSEELFYVLEGELDVLAFEPRIRTPDSWREWESTSGNRVVRATPG
+                     TVIVVPPGCPHAFANPTGEPAKMFFQASPPPDHERYFEELLEILGEGGPPDHEAIEALR
+                     AKYDIEQLTPLRHG"
+ORIGIN
+        1 cgcctgccgc ccagctcccc gggacggagt aacccggcgg gagatcaccg ccccggtgag
+       61 tgatcgtgga tgggcacccc tgaaaaggtg caccactttc cggccggggg gcgcaagcct
+      121 tccgcgaggc gaaagcaggc acggttcatg gcgactttgt gcagaccctc ggtgtccgtc
+      181 ccggagcacg tgatcacgat ggaggagacg ctggagctgg cgcgtcggcg tcacacggac
+      241 catcctcaac tgccgctcgc gctccggctg atagagaaca ccggggtccg cacccggcac
+      301 atcgtgcagc ccatcgagga cacgctggag caccccggct tcgaggaccg caacaaggtc
+      361 tacgaacggg aggcgaagtc ccgtgtcccg gccgtgatcc agcgcgctct ggacgacgcg
+      421 gagctgctcg ccaccgacat cgacgtgatc atctacgtct cctgcacggg cttcatgatg
+      481 ccgtcgctca cggcgtggct catcaacgag atgggtttcg acagcaccac gcgccagata
+      541 cccatcgcgc agctgggctg cgcggccggc ggtgcggcga tcaaccgggc ccacgacttc
+      601 tgcaccgcct acccggaggc caacgcgctc atcgtggcct gcgagttctg ctcgctgtgc
+      661 taccagccca ccgacctcgg cgtgggctcc ctgctctgca acggcctctt cggcgacgga
+      721 atcgccgccg cggtggtccg cggccggggc ggcaccggag tgcgcctgga gcgcaacggc
+      781 tcgtacctga tccccaagac cgaggactgg atcatgtacg acgtgaaggc gaccggtttc
+      841 cacttcctgc tggacaagcg ggtgccggcc accatggagc cgctcgcgcc ggcgctcaag
+      901 gagctggcgg gagagcacgg ttgggacgcc tccgacctgg acttctacat cgtgcacgcg
+      961 ggcggccccc ggatcctcga cgatctcagc acgttcctgg aggtcgaccc gcacgcgttc
+     1021 cgcttcagcc gggccacgct caccgagtac ggcaacatcg ccagcgccgt cgtcctggac
+     1081 gcgctgcgca ggctcttcga cgaaggcggc gtcgaggagg gggcacgtgg gctgctggcc
+     1141 ggcttcggtc ccggcatcac cgcggagatg tcgctgggct gctggcagac ggcggacgtg
+     1201 cggcggggca tacggcagga cgtgacgcgg accgcggcac ggggcgtgtc gcggagggtg
+     1261 aggcaggcat gactgaagaa acgatttccc aggccgtgcc acccgtccgg gactggccgg
+     1321 ccgtcgacct tcccggcagc gacttcgacc cggtgctgac cgagctgatg cgcgagggtc
+     1381 ccgtcacccg gatctcgctg cccaacggcg agggctgggc ctggctcgtg acccgccacg
+     1441 acgacgtccg cctggtcacc aacgaccccc ggttcgggcg cgaggccgtc atggaccgcc
+     1501 aggtcacccg gctggccccg cacttcatcc cggcgcgcgg cgcggtgggc ttcctggacc
+     1561 cgcccgacca cacccggctg cgccgctcgg tggccgcggc cttcaccgcg cggggcgtgg
+     1621 agcgggtgcg cgagcggtcc cggggcatgc tcgacgagct ggtcgacgcc atgctgaggg
+     1681 ccggtccgcc cgccgacctc accgaggcgg tgctgagccc gttccccatc gcggtgatct
+     1741 gcgagctgat gggtgtgccg gccaccgacc ggcactccat gcacacctgg acccagctga
+     1801 tcctgtcctc ctcgcacggc gccgaggtca gcgagcgggc caagaacgag atgaacgcct
+     1861 acttctcgga tctcatcggg ctccgctccg acagcgcggg cgaggacgtc acctcgctgc
+     1921 tgggtgccgc cgtggggcgg gacgagatca cgctgtcgga ggccgtcggg ctcgcggtgc
+     1981 tgctccagat cggcggcgag gcggtcacca acaacagcgg gcagatgttc cacctgctgc
+     2041 tgagccgccc ggagctggcc gaacgcctgc gctccgagcc ggagatccgc ccccgggcca
+     2101 tcgacgagct gctgcgctgg atcccgcacc gcaacgccgt ggggctgtcc cggatcgccc
+     2161 tggaggacgt ggagatcaag ggggtgcgga tccgcgcggg cgacgccgtc tacgtctcgt
+     2221 acctggcggc caaccgcgac ccggaggtgt tccccgaccc ggaccgcatc gacttcgagc
+     2281 gctcccccaa cccgcacgtc tccttcggct tcggcccgca ctactgtccc ggcggcatgc
+     2341 tggcgcggct ggagtcggag ctgctcgtcg acgcggtcct ggaccgcgtg ccggggctga
+     2401 agctcgcggt ggcgccggag gacgtgccct tcaagaaggg tgcgctgatc cgcgggcccg
+     2461 aggccctgcc ggtgacgtgg tgagcggcct ggtcgcggcg gccgagggcc tgctggtgcc
+     2521 gcccggtcag ggcagggtgg tgcaggcgcc ggcccagcac gtgaccttca aggtgaccgg
+     2581 ttcgcactca cgcatggcgt ccaccttcga ggtgatcgtg ccgccggggt tcgacgtcgg
+     2641 cgcccatgtg cactcccgca gcgaggagct gttctacgtg ctggagggcg agctggacgt
+     2701 gctcgccttc gagccgcgga tccgtacgcc ggacagctgg cgggagtggg agtcgacttc
+     2761 cggcaaccgg gtggtgcgcg ccacccccgg aacggtcatc gtcgtacccc ccggctgtcc
+     2821 gcacgccttc gcgaacccga cgggcgagcc ggccaagatg ttcttccagg ccagcccgcc
+     2881 cccggaccac gagcgctact tcgaggaact gctggagatc ctcggcgagg gcggcccgcc
+     2941 ggaccacgag gcgatcgagg ccctgcgggc gaagtacgac atcgagcagc tcacgccgct
+     3001 gcgacacggt tagc
+//

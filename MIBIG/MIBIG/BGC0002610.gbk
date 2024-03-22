@@ -1,0 +1,201 @@
+LOCUS       BGC0002610              6468 bp    DNA     linear   PLN 03-NOV-2015
+DEFINITION  Aspergillus stellatus DNA, stellatic acid biosynthetic gene cluster,
+            complete sequence, strain: NBRC 32302.
+ACCESSION   BGC0002610
+VERSION     BGC0002610
+KEYWORDS    .
+SOURCE      Aspergillus stellatus (Emericella variecolor)
+  ORGANISM  Aspergillus stellatus
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2022-10-08 16:36:57
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 100
+            Orig. end    :: 6568
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     gene            complement(1..2640)
+                     /gene="Stl-TS"
+                     /gene_synonym="EvSS"
+     CDS             complement(join(1..321,403..548,610..711,774..937,
+                     992..1146,1197..1896,1954..2210,2270..2292,2364..2640))
+                     /codon_start=1
+                     /gene="Stl-TS"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1182:Polyprenyl synthetase (Score: 243.7; E-value:
+                     3.6e-74)"
+                     /gene_kind="biosynthetic-additional"
+                     /gene_synonym="EvSS"
+                     /note="terpene cyclase/geranylfarnesyl pyrophosphate
+                     synthase"
+                     /product="stellatatriene synthase"
+                     /protein_id="BAT32889.1"
+                     /transl_table=1
+                     /translation="MEYKFSTVVDPGTYETHGLCEGYEVRYHKNAELEDIGCLRCQEHW
+                     RQSVGPLGAFKGTLGNPFNLLSLVIPECLPDRLSIVGFANELAFIHDDVTDIVQYGDAH
+                     NNDFKEAFNSMATTGSMENAASGKRALQAYIAREMVRIDKERAIPTIKAWAKFVDYGGR
+                     QETTRFTSEKEYTEYRIQDIGLWFWYGLLSFAMALDVPEHEREMCHEVCRTAYVQIMLV
+                     HDLASWEKEKLNAAALGKDVITNIIFVLMEEHGISEEEAKERCRETAKTLAADYLKIVE
+                     EYKARDDISLDSRKYIESWLYTISGNTVWSFICPRYNSSGSFSDHQLELMKNGVPKDPA
+                     SGSTNGTSNGTSNGTSHVAVNGNGHVTNDDLSANGIKTDGELLSAITMEHLKNRNSFKL
+                     GDHDQEVKSLHGHGQALDPRVLQAPYEYITALPSKGLREQAIDALNVWFRVPTAKLEII
+                     KSITTILHNASLMLDDVEDGSELRRGKPATHNIFGLGQTINSANYQLVRALQELQKLGD
+                     ARSLLVFTEELHNLYVGQSMDLYWTSNLVCPSMHEYFQMIEHKTGGLFRLFGRLMAVHS
+                     TNPVQVDLTDFTNHLGRYFQTRDDYQNLVSAEYTKQKGFCEDFEEGKFSLPMIHLMQTM
+                     PDNLVLRNVWTQRRVNGTATHGQKQTILNLMKEAGTLKFTQDSLGVLYSDVEKSVAELE
+                     SKFGIENFQLRLIMELLKTG"
+     misc_feature    1..6468
+                     /note="stellatic acid biosynthetic gene cluster"
+     subregion       1..6468
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="Terpene"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..6468
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            order(4384..4651,4741..4869,4937..5207,5303..5337,
+                     5446..5474,5551..6221,6303..6468)
+                     /gene="Stl-P450"
+     CDS             join(4384..4651,4741..4869,4937..5207,5303..5337,
+                     5446..5474,5551..6221,6303..6468)
+                     /codon_start=1
+                     /gene="Stl-P450"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1034:cytochrome P450 (Score: 254; E-value: 4.7e-77)"
+                     /gene_kind="biosynthetic-additional"
+                     /note="cytochrome P450 monooxygenase"
+                     /product="stellatic acid synthase"
+                     /protein_id="BAT32890.1"
+                     /sec_met_domain="p450 (E-value: 3.4e-26, bitscore: 79.0,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=1
+                     /translation="MEGSINDARRTNYLVLLRTCYEIYGIYEPLLALFAVYSVAVVVYR
+                     LYLHPLARFPGPKLAAATGWYEFYHDVFRGGQYLYEIESMHRKYGPIIRINPHELVVND
+                     PDFYNTVFVAANTRRTDKWSGLEGIGLRGSLAFTRDHDLHRIRRKRYEPFFSRLSVSRI
+                     EPIIVDEAKLLAKQLEASSKTGRVIELEHVMSAFTGDVITTLCSEKSPDMIRHPEFGKG
+                     WHTSLYNFPSCFRAGAFNSFLEYSTDHINTAKREMLSVDKLEQNNKSSVFRYVLSTDMP
+                     QAERDTERLAREAALLFGAGSVTTTRFFSVTIYYTLRNRQIRDRLSAELKDVMAGYPST
+                     LPTWQELDRLPYLHAIVKEGLRYACPFVLSSSLAAWSSLSHKFSSRLSYGVMRHLSRIS
+                     PDSALHYKQWTIPPGTPVGMSSYSLHTDPETFPEPFKFMPERWLGEYNPKMNRSWVPFT
+                     RGSRNCLGMNLAYAQIYWGLAVMFRPGGPRLELYETNESDIRPVLDFLGPLPKSGSRGL
+                     RVTVS"
+ORIGIN
+        1 ctatccagtc ttcaacaact ccataatcag tctcagctga aagttctcta tcccaaattt
+       61 gctctccagc tcggcgacgc tcttctcaac atcgctatac aagacaccaa gggagtcttg
+      121 agtgaacttt agagttccag cctccttcat gaggttaagg attgtctgct tctggccgtg
+      181 cgtagcagtc ccgttgaccc ggcgctgcgt ccagacattc ctgaggacaa gattgtctgg
+      241 cattgtctgc atgagatgga tcatggggag agagaacttg ccctcctcaa agtcctcaca
+      301 gaagcctttt tgcttggtgt actggtcatg cgtggtcaag ttagcattgg tctcgtgata
+      361 cttaagcgag tagcggcaag gtcagggcag ggcagggcat acctcggcag agaccaagtt
+      421 ctggtagtcg tcgcgggtct ggaaataccg acccagatgg ttggtgaagt ccgtgaggtc
+      481 gacctggacg gggttcgttg agtggacagc cataagacga ccgaatagcc taaagaggcc
+      541 gccggtttct atcagacgcg tccacggtga gtttcggggt tcattttcag gggcgaggac
+      601 agcacgtact gtgttctatc atttggaaat actcatgcat cgaaggacag acgagattgc
+      661 tggtccagta gaggtccatg gactggccga cgtagagatt gtgcaattcc tctgcaggca
+      721 ggggttacaa tcagttactg atgcagcaac atccatcgtc tagtgtgacc taccggtgaa
+      781 tacaagtaga ctccttgcgt ccccaagttt ctgcagctct tgcaatgcac gcaccagctg
+      841 gtagttggcc gagttgatcg tctgtcccag accgaagatg ttatgtgttg ctggctttcc
+      901 tcgtcgaagt tctgatccgt cttccacgtc atcaagcctg atatacggtt agcctagacg
+      961 caagggaacg ggaaggaaag aaagcacaaa catcaacgag gcgttgtgga ggatcgtggt
+     1021 gatcgacttg attatctcca gtttcgcggt aggtacacgg aaccagacat tcagggcatc
+     1081 gatagcctgt tctcggagcc ccttggaagg aagagccgtt atatactcgt atggcgcttg
+     1141 caagacctgg tgggattagc aaaggtgcta tttggcaacg tgggcgagta ttttaccctt
+     1201 gggtcaagag cctgcccgtg cccatgaagg gatttcactt cctggtcgtg gtcaccaagt
+     1261 ttaaaggaat tgcggttctt gaggtgctcc atggtaatcg cactgagaag ctctccatcg
+     1321 gttttgattc cgttggctga aaggtcgtca tttgtgacat ggccgtttcc attgacagcg
+     1381 acatggctag tgccattaga agtaccattg gaagtaccat tcgtagagcc actcgcaggg
+     1441 tccttgggaa cgccattctt catcagctcg agctggtggt cggagaagga tcctgaactg
+     1501 ttgtatctag ggcagatgaa actccaaacc gtgtttccac tgatggtgta cagccaggac
+     1561 tcaatgtact ttctactatc cagcgagata tcgtctctcg ctttgtactc ttccacgatc
+     1621 ttcaggtagt ctgccgcaag cgttttggcc gtctcacggc atcgctcctt ggcttcttct
+     1681 tctgagatcc catgctcctc catcaagacg aaaatgatat tggtgatgac atctttcccc
+     1741 agggccgccg cgttcagctt ctccttctcc caggaagcca aatcgtgtac cagcattatc
+     1801 tgtacgtagg ctgttctgca cacttcgtgg cacatctccc gttcgtgttc ggggacgtcg
+     1861 agcgccattg caaaggagag caggccatac cagaacctag agaagcaccg ggtcagtcac
+     1921 tagacagcct cacgatccaa caaagcgcct caccagagcc cgatatcttg gatgcggtat
+     1981 tcagtgtatt ccttctccga tgtaaaacgc gttgtctctt gccgtccgcc gtagtcgacg
+     2041 aatttggccc acgccttgat tgttgggatt gcacgctcct tgtcaatgcg caccatttct
+     2101 ctcgcaatgt acgcctgtag cgcccgcttt cctgaggcgg cgttttccat gctgcccgtg
+     2161 gtggccatgc tgttgaaggc ctctttgaaa tcattgttgt gagcgtcacc ctgggctgca
+     2221 atcagctgat tgtccttgct gaggatggcc cggggttagg gacacttaca tattggacga
+     2281 tatcggtgac atctaccata cgcaaccccc ctccctcatt agcactgcca gagtgacgcc
+     2341 aagagaatta gaatacaact caccatcatg tatgaaggcg agctcattgg caaaccccac
+     2401 aatgctgagc ctatctggca agcactcggg gatcaccaga gacaggagat tgaatgggtt
+     2461 tcccaatgtg cctttgaacg cccccaaagg acccaccgat tgtctccagt gttcctggca
+     2521 ccgcaggcac ccaatatcct cgagctccgc gttcttatgg tacctcacct cataaccttc
+     2581 acatagccca tgagtttcgt acgtcccggg gtcgacaacc gtggaaaatt tgtactccat
+     2641 actgggaggc tatgaacgcg accaggcaat agaagaagat gaggaagagg tgcacgagga
+     2701 gagagtatgc aagggatggc tgagatgagc tcgatgacat ctgcggcata ccacaatcat
+     2761 ggccaaagga aacttgagaa aggtgttgca tttaagactt ccggacctgc ctagcaacaa
+     2821 caaaacgaaa ggacgtcagc taatagcctc cttgacggtc aggcagatcc ccagtgtcag
+     2881 ggaacccaat catatcatgt ccaacaaccg atagctctgc caaatccgct cagcaattct
+     2941 caatcgaccc ggtgtcgaat cgcgtccaat aaccaccgca gtgcgtgata gctcgtgctg
+     3001 ggggagccgg accagtatag catcgcatcc aatagtcatc cagctcatga attccgaact
+     3061 gggtcagcca tcaaatcacc tattgcgggg tataatcgct cggaatggct cggaatcatc
+     3121 aacttggtcc agtgtaatat ggcgtccaat ggccatgcca gtaccagatt gcgcgcgata
+     3181 tccgccaggc caggacagaa tctgcttcca ggaagccagc gagcatttag acatgcagtg
+     3241 gcagatcgct catgattata aactggaccg gtggaggatt catacatagt attacgaagg
+     3301 cggcggcgtc tccaaagtgg gtggaattag ccgacgcagc ctcaacattg gtcacaaccc
+     3361 caaactgatc atgaatctat atcagcttga tagcggactg aggcgttctt ggcacccccg
+     3421 ggagggcagg ggcaggggca gatcgccact gcttgctgtc cgtctgaata ttcggaatac
+     3481 gcggaacagc ccaggccctg tagatcgcgc agcacagaca gggcagaccc tgcaaggaga
+     3541 cgatgcatat tgacctgggc tgacatgcga tactctgaga ggcctgcaaa cagatgggac
+     3601 cggttgagaa aaatgcaatt gctcttgacg ccctgcgtca tcattggtac acgacaggtc
+     3661 tcgcagagaa accgtggagg tgattcgggc tgacgtgcag tactctgaaa agcctgcaaa
+     3721 ccggtgggac cggccgagaa gtgacttatc gaaagaaaaa ataagcattg ctcttacacc
+     3781 ctgtcttatt gtcgtacacg gcaggtctcg tgagggaagc tatggtgatt caggctaatg
+     3841 tgcagtactc tgagaggtgc cgccaaacag gcatgcactg ggtcggaaag tgactgatcc
+     3901 agcaaggact gatcaaaggc tgatggtgag ctgatggtga gctgatggat ccatcatcct
+     3961 cattcatcct gcaacccggt cgtacggggc caggtgttga gggaaaagag agctggactc
+     4021 agaaaaagga agccgagaat ccaggactgg gatgatgcat tgagcagatc cttatggtct
+     4081 ttgcaagggg gcgacctacc caacagcctg gctggccgcg tgtgacggca gacagaggca
+     4141 ttgaggacat ggcagtcgag ctggcgatga aggggcctcc ccattcccca gcaaggaaca
+     4201 ccctgcctgt caccgggaga acgtgggcct ctccttgctt catggaggag ctccgcgctt
+     4261 gcagtgcgga ttaaattgtc tgttggtcct cataccccat tcaatcctcc ccagctggac
+     4321 catttgccca acccatttga acagtgtctc ccacggccat tgtacaaggc accgcctcta
+     4381 gtcatggagg gctcaatcaa tgacgctagg cgaaccaact accttgtcct cctgcgcact
+     4441 tgttatgaga tatatgggat atacgaaccg ctcttggcgc tctttgctgt ctatagcgtt
+     4501 gcagttgtcg tctatcgcct ctaccttcac ccgctagctc gtttcccagg cccgaagctt
+     4561 gctgctgcta ccggatggta tgagttctat catgatgtct ttcggggagg gcagtatctg
+     4621 tatgagattg agtctatgca caggaaatat ggtacaggga ccccctcccg agggtgaggg
+     4681 tatatctctt gcttcattct accattgcta acaagacaaa ccaaattgaa aaccatccag
+     4741 gccctattat ccgcatcaac ccgcatgagc tcgtagtgaa tgacccagac ttttacaaca
+     4801 ccgtcttcgt cgccgccaac acccgccgta cagacaaatg gagcggcctt gagggtattg
+     4861 gacttcgcgg tacggcgtct cctggcctct tctaacctct tctagagaat ggtatggcta
+     4921 atactctagc caccaggctc gttggccttc acccgggacc atgatctaca tcgtatccgc
+     4981 cgaaaacgct atgagccctt cttctcgcgt cttagtgtga gccggattga gcccatcatt
+     5041 gtcgatgaag caaagctgct tgcaaagcag ctcgaagcat ctagcaagac cggccgggtc
+     5101 atcgagctcg agcatgtcat gtctgcgttc acgggggatg tcattaccac tctttgctcg
+     5161 gagaaatccc ccgacatgat aagacacccg gagtttggca agggctggtt agttgcaata
+     5221 tcctctcctt tcgtgatagc tacctaccag aatcctcacg ctagcctgca ggcatcagac
+     5281 attccatact gtgctacggc aggcacacat ctttgtacaa cttccccagc tgctttagtg
+     5341 agtgcactca tttcccgggg ggggggggga ctgaccatgc ctaataactt tacaatagca
+     5401 ttgctcgact gtttccaaca gctctgctaa agcttttgct cccaggggct ggagccttca
+     5461 atagcttcct cgaggtacgt actgaccaaa gcgggactcc caccccccgg agccacacac
+     5521 tgacccccgg tcctcgtcaa cggcaatcag tactcaaccg accacatcaa caccgccaag
+     5581 cgcgagatgc tcagcgtaga caagctcgag caaaacaaca agagctccgt gttccgatac
+     5641 gtcttatcaa ccgatatgcc ccaggctgaa cgtgacactg agcggctcgc tagagaggcg
+     5701 gccctgctct tcggcgcagg cagcgtgact accactcgct tctttagcgt gaccatctac
+     5761 tataccctca gaaaccgtca gatcagagac cgtctctctg ctgaactgaa agacgtcatg
+     5821 gccggttatc cctccactct gcctacttgg caggagctgg acagactgcc gtacctgcat
+     5881 gctatagtca aggaagggct ccggtatgct tgcccttttg ttctctctag ctctctagct
+     5941 gcctggtcgt ctctctcaca caagttctct tctagactca gttacggggt aatgcgccat
+     6001 ctctcacgca tctcgcccga ctccgcgctc cactacaagc aatggactat cccccccggt
+     6061 acccctgtgg gcatgtcgtc atacagcttg cacacagatc cagagacctt ccctgaaccc
+     6121 ttcaagttca tgcctgagcg ctggctaggc gaatataacc ccaagatgaa taggagctgg
+     6181 gtccccttca cgcggggctc aaggaactgt ctaggcatga agtaagaaag tcccccctcc
+     6241 ccaaccttct tgtccatacc ttgatcaaaa tgggtgcaac tgagcggcta acaatttacc
+     6301 agtcttgcat acgcccagat ttactggggg ctagctgtga tgtttaggcc cggtgggcct
+     6361 agactcgagt tgtacgagac aaatgagtcc gacattcgcc ctgtcctgga ttttctggga
+     6421 ccccttccga aatcgggtag tagggggctg agggttacgg tgtcctag
+//

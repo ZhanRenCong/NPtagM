@@ -1,0 +1,209 @@
+LOCUS       BGC0002052              4080 bp    DNA     linear   BCT 06-OCT-2020
+DEFINITION  Streptomyces sp. strain ID38640 ectoine biosynthetic gene cluster,
+            complete sequence.
+ACCESSION   BGC0002052
+VERSION     BGC0002052
+KEYWORDS    .
+SOURCE      Streptomyces sp
+  ORGANISM  Streptomyces sp.
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2022-10-08 14:43:11
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 4080
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4080
+                     /db_xref="taxon:1931"
+                     /mol_type="genomic DNA"
+                     /organism="Streptomyces sp."
+                     /strain="ID38640"
+     subregion       1..4080
+                     /aStool="mibig"
+                     /contig_edge="True"
+                     /label="Other"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..4080
+                     /contig_edge="True"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(189..1088)
+                     /gene="ectD"
+                     /locus_tag="NAI38-5748"
+     CDS             complement(189..1088)
+                     /codon_start=1
+                     /gene="ectD"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) PhyH"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="NAI38-5748"
+                     /product="ectoine dioxygenase"
+                     /protein_id="QOE83927.1"
+                     /sec_met_domain="PhyH (E-value: 7.5e-41, bitscore: 128.8,
+                     seeds: 39, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTTAPERTADLYPTRGTAEVITPRKDPVVWSQPGTAGPFEPSELS
+                     DFERDGFFAIGELLTAEEVAVYRAELDRLVLDPTMRADPRSIVEPKSQDVRTVFEVHKI
+                     SEVFAKLVSDPRVVGRARQILGSDVYVHQSRINVKPGFGASGFYWHSDFETWHAEDGLP
+                     NMRTVSVSIALTENYDTNGGLMIMPGSHEYFVGCEGATPKDNYKRSLQMQDAGIPSDEV
+                     LTKMADKHSIRLFTGKAGSATWFDCNAMHGSGDNITPYPRSNVFIVFNSVENAAVEPFA
+                     APVRRPEYIGARDFTPVR"
+     misc_feature    189..3620
+                     /note="ectoine biosynthetic gene cluster"
+     gene            complement(1184..1600)
+                     /gene="ectC"
+                     /locus_tag="NAI38-5749"
+     CDS             complement(1184..1600)
+                     /codon_start=1
+                     /gene="ectC"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     ectoine: ectoine_synt"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="NAI38-5749"
+                     /note="L-ectoine synthase"
+                     /product="EctC"
+                     /protein_id="QOE83928.1"
+                     /sec_met_domain="ectoine_synt (E-value: 1e-56, bitscore:
+                     178.4, seeds: 10, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MIVRSFKDIEGTDRHVKAKSGTWESKRIVLAKERVGFSLHETTLY
+                     AGTETSMWYANHIEAVLCVEGEAELTNDETGEKYTITPGTMYLLDGHEKHTMRIKEDFR
+                     CVCVFNPPVTGREDHDENGVYPLLTEPESEPETV"
+     gene            complement(1647..2915)
+                     /gene="ectB"
+                     /locus_tag="NAI38-5750"
+     CDS             complement(1647..2915)
+                     /NRPS_PKS="Domain: Aminotran_3 (28-365). E-value: 5.3e-76.
+                     Score: 247.6. Matches aSDomain:
+                     nrpspksdomains_NAI38-5750_Aminotran_3.1"
+                     /codon_start=1
+                     /gene="ectB"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Aminotran_3"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1013:aminotransferase class-III (Score: 380.1;
+                     E-value: 2.2e-115)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="NAI38-5750"
+                     /product="diaminobutyrate--2-oxoglutarate transaminase"
+                     /protein_id="QOE83929.1"
+                     /sec_met_domain="Aminotran_3 (E-value: 2.2e-82, bitscore:
+                     264.9, seeds: 13, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTITQPDLSVFETVESEVRSYCRSWPTVFDRAQGSRMTDEDGHTY
+                     LDFFAGAGSLNYGHNNPVLKRALIDYIERDGVTHGLDMSTTAKRAFLESFQNIILRPRD
+                     LPYKVMFPGPTGANSVEAALKLARKVKGRESIVSFTNAFHGMSLGALAVTGNSMKRAGA
+                     GIPLVHGTPMPFDNYLDGTYPDFLWFERLLEDQGSGLNTPAAVIVETVQGEGGINVARP
+                     EWLRALADLCERWDMLLIVDDIQMGCGRTGAFFSFEEAGIVPDIVTVSKSISGYGLPLA
+                     LTLFKPELDIWEPGEHNGTFRGNNPAFVTAAATLDTYWADGQMEKQTLARGEIVEAHLK
+                     AITEEHPDAIAEYRGRGLVWGMELNDKPTADKIAKRAFELGLLIETSGPESEVVKLLPA
+                     LTTTPEELDEGLRILARAVRDCV"
+     aSDomain        complement(1821..2831)
+                     /aSDomain="Aminotran_3"
+                     /aSTool="nrps_pks_domains"
+                     /database="nrpspksdomains.hmm"
+                     /detection="hmmscan"
+                     /domain_id="nrpspksdomains_NAI38-5750_Aminotran_3.1"
+                     /evalue="5.30E-76"
+                     /label="NAI38-5750_Aminotran_3.1"
+                     /locus_tag="NAI38-5750"
+                     /protein_end="365"
+                     /protein_start="28"
+                     /score="247.6"
+                     /tool="antismash"
+                     /translation="FDRAQGSRMTDEDGHTYLDFFAGAGSLNYGHNNPVLKRALIDYIE
+                     RDGVTHGLDMSTTAKRAFLESFQNIILRPRDLPYKVMFPGPTGANSVEAALKLARKVKG
+                     RESIVSFTNAFHGMSLGALAVTGNSMKRAGAGIPLVHGTPMPFDNYLDGTYPDFLWFER
+                     LLEDQGSGLNTPAAVIVETVQGEGGINVARPEWLRALADLCERWDMLLIVDDIQMGCGR
+                     TGAFFSFEEAGIVPDIVTVSKSISGYGLPLALTLFKPELDIWEPGEHNGTFRGNNPAFV
+                     TAAATLDTYWADGQMEKQTLARGEIVEAHLKAITEEHPDAIAEYRGRGLVWGMELN"
+     gene            complement(3051..3620)
+                     /gene="ectA"
+                     /locus_tag="NAI38-5751"
+     CDS             complement(3051..3620)
+                     /codon_start=1
+                     /gene="ectA"
+                     /locus_tag="NAI38-5751"
+                     /product="L-2,4-diaminobutyric acid acetyltransferase"
+                     /protein_id="QOE83930.1"
+                     /transl_table=11
+                     /translation="MTAAQADHAGARSDIREFPEGFKLDTPRVEDGAAIWRIARDSKAL
+                     DLNSSYSYLLWCRDFAATSVVARDTEGEPAAFITGYLRPERPETLVVWQVAVDDAHRGQ
+                     GLAAALLDGLTARARDELGVRFVETTVTPDNTASNRLFASFAERHSVPLKSEVLFDAGL
+                     FPEQGHEPEVLHLIGPFEPPARSGHS"
+ORIGIN
+        1 tacaactcga cggacgacgt ggaccggttg ctggccctgc tggggtaggg ccggtccgac
+       61 gggccggcaa cctgcgccgc cggccggcgc ccggcggccc ctccaacacc ccggaccggc
+      121 cgtacaacac ggcgcggccg ccgcacagac cagctgtgcg gcggccgcgc caccggtgcg
+      181 agtgtcccct aacgcaccgg agtgaagtcg cgggccccga tgtactccgg gcgccggacc
+      241 ggcgctgcga acggctccac cgcagcgttc tccacgctgt tgaagacgat gaagacattg
+      301 ctgcgcgggt agggcgtgat gttgtcgccc gagccgtgca tggcgttgca gtcgaaccac
+      361 gtcgccgagc cggccttacc ggtgaagaga cggatgctgt gcttgtccgc catcttcgtg
+      421 agcacctcgt ccgacgggat gcccgcgtcc tgcatctgca gcgaccgctt gtagttgtcc
+      481 ttcggcgtcg caccctcaca gcccacgaag tactcgtgcg agccgggcat gatcatcaag
+      541 ccgccgttgg tgtcgtaatt ctccgtcagc gcgatcgaga ccgacacggt gcgcatgttc
+      601 ggcagaccgt cctcggcgtg ccaggtctcg aagtccgaat gccagtagaa gccggaggca
+      661 ccgaagcccg gcttcacatt gatccgcgac tggtggacat agacgtccga gccgaggatc
+      721 tgacgggcac ggccgaccac gcgcgggtcg gagaccagct tggcgaacac ctcgctgatc
+      781 ttgtgcacct cgaacacggt ccgtacgtcc tgtgacttcg gctcgacgat ggagcgcggg
+      841 tcggcgcgca tcgtcgggtc gaggacgaga cggtccagtt cggcgcggta caccgcgact
+      901 tcttccgccg tgagcagttc cccgatggcg aaaaagccgt cgcgttcgaa gtcgctcagc
+      961 tcggacggct cgaaggggcc ggccgttccg ggctgcgacc acaccaccgg gtccttccgc
+     1021 ggggtgatga cctcagcggt cccacgggtc gggtacaggt cggcggtgcg ctcgggtgcg
+     1081 gtggtcatgg tgttgccttc ctctcctctc gtacggaatc tggcttacgt gcgcgtgcgt
+     1141 gtgccttcct cagcgctgcc ggacggggca ggcggatggc gcctcagacc gtctcgggct
+     1201 cagactccgg ttcggtgaga agcgggtaga ccccgttctc gtcgtggtcc tcgcggccgg
+     1261 tgacgggcgg gttgaagaca cacacgcagc ggaagtcctc cttgatccgc atggtgtgct
+     1321 tctcgtgccc gtcgagcagg tacatcgtgc ccggcgtgat ggtgtacttc tcgccggtct
+     1381 cgtcgttcgt gagctcggcc tcaccctcta cgcagagtac ggcctcgatg tggttcgcgt
+     1441 accacatcga cgtctcggtc ccggcgtaca gggtggtctc gtgcagcgag aaaccgacgc
+     1501 gctccttggc gagcacgatg cgcttgctct cccaggtgcc ggacttggcc ttgacgtggc
+     1561 ggtcggtgcc ttcgatgtcc ttgaaggatc ggacgatcac ggtgactcgg tgcctttctg
+     1621 tggaacggta aggggctctg gagtggtcag acgcagtcgc ggaccgcgcg ggcgaggatc
+     1681 cggagtccct cgtccagctc ctcaggggtg gtcgtcagcg cgggcagcag cttgacgacc
+     1741 tcgctctccg ggccggaggt ctcgatcagc agacccagct cgaaggcgcg cttggcaatc
+     1801 ttgtcggcgg tgggcttgtc gttgagctcc atgccccaca ccagaccgcg gccgcggtac
+     1861 tcggcgatgg cgtccgggtg ctcctcggtg atggccttga ggtgtgcttc gacgatctca
+     1921 ccgcgggcga gagtctgctt ctccatctgg ccgtcggccc agtaggtgtc cagcgtcgcg
+     1981 gcggcggtga cgaacgccgg gttgttgccg cggaaggtgc cgttgtgctc gcccggctcc
+     2041 cagatgtcca gctcaggctt gaacagggtg agcgcgagcg gcaggccgta gccgctgatg
+     2101 gacttcgaga cggtgacgat gtccggcacg atgcccgcct cctcgaagga gaagaaggca
+     2161 cccgtacggc cgcaacccat ctggatgtcg tcgacgatga gcagcatgtc ccagcgctca
+     2221 cacaggtcgg cgagggcacg cagccactcg ggacgggcga cgttgatgcc gccctcgccc
+     2281 tggaccgtct cgacgatcac ggcggcgggg gtgttcagac cggagccctg gtcctccagc
+     2341 agccgctcga accacaggaa gtccgggtag gtgccgtcga ggtagttgtc gaagggcatc
+     2401 ggggtgccgt gcaccagcgg gataccggcg ccggcgcgct tcatggagtt accggtgacg
+     2461 gccagcgcgc ccagggacat gccgtggaag gcgttggtga aggacacgat cgactcgcgg
+     2521 cccttgacct tacgggccag cttcagcgcg gcctcgacgg agttggcgcc cgtcgggccc
+     2581 gggaacatga ccttgtaggg caggtcacgg ggccgcagga tgatgttctg gaacgactcc
+     2641 aggaacgccc gcttggccgt ggtggacatg tccaggccgt gggtgacgcc gtcccgctcg
+     2701 atgtagtcga tcagggcgcg tttgaggacc gggttgttgt ggccgtagtt gagcgacccg
+     2761 gcgccggcga agaagtcgag gtaggtgtgg ccgtcctcgt cggtcatgcg gctgccctgc
+     2821 gcacggtcga agacggtggg ccagctacgg cagtagctgc ggacctcgga ctccacggtc
+     2881 tcgaagacgc tcagatcggg ctgggtgatg gtcacagcat gctcctggga gatgagtggc
+     2941 gaaaggatga gaagtctgta gggggctggg cggtaccggc ggtgtcacgg gggtgtggtg
+     3001 ccgggcccgc atgaccgctg cggcgtcgcc gccgcgcggt cctgggtgcg tcaggagtgc
+     3061 cccgagcggg ccggtggctc gaacgggccg atgaggtgca gcacctccgg ctcgtggccc
+     3121 tgctccggga acagccccgc gtcgaagagc acctcgctct tgaggggcac tgagtgccgc
+     3181 tcggcgaagg acgcgaacaa ccggttggat gcggtgttgt cgggggtcac ggtggtttcg
+     3241 acgaaacgta cgcccagctc gtccctggcc cgggcggtca gcccgtccag gagtgcggcc
+     3301 gccaggccct gcccacggtg cgcgtcgtcg acggcgacct gccagacgac gagggtctcc
+     3361 gggcgctcgg ggcggaggta tccggtgatg aaggcggccg gctcgccctc cgtgtcgcgg
+     3421 gcgacgacgg aggtggcggc gaagtcgcga caccacagga ggtagctgta cgaggagttg
+     3481 agatccagcg ccttcgagtc gcgggcgatg cgccagatcg cggctccgtc ctccacgcgt
+     3541 ggggtgtcga gcttgaagcc ctccggaaat tctctgatat cgcttcgggc acctgcatgg
+     3601 tctgcttgtg cggcggtcat gggaattaaa tttacccagg gaaaagggaa attgcatcgc
+     3661 gggcaggggt tacggaagtg agcgagatgt gttatcgcgc gggggcgccc gtgtgcgcga
+     3721 tgccaccgcg agatgtcccc atttgaccag gaggttcggg gtgaaacgga cacgttgtgt
+     3781 agtcggtcac agctccgtaa cgcccacgag atccgtccga attatggaac ttgccgctag
+     3841 cgaaatcttg gcgtttgagg tgcggaaaag cgggcagaag aatacgggaa gctgtacttc
+     3901 tgaggaattg ggaattcgcc gccggaaggc cgggcggaag gcccatggaa acctgcgcgg
+     3961 caagaccgtg acaagacccg caagaagatg cgccaggcga tgtccgggaa ggctgcggga
+     4021 aacgtacgga gagttgcgga gaacgcacgg agaaccgtgc agcacgggta gcggaagctg
+//
