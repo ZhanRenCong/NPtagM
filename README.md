@@ -5,6 +5,10 @@ This program operates depending on the Python environment (Python Version 3.0 or
 The users need to first install the antiSMASH using Bioconda. The installation guide could be found in https://docs.antismash.secondarymetabolites.org/install/.
 After the installation of antiSMASH, first activate the environment by command line:
 conda activate antismash
+Then install AUGUSTUS by:
+sudo apt install augustus augustus-data augustus-doc
+Finally install CD-Hit by:
+sudo apt install cd-hit
 
 Usage:
 You could find all parameters by command line:
