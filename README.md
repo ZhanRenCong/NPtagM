@@ -15,6 +15,6 @@ You could find all parameters by command line:
 python run_TEGM.py -h
 
 We provided some test files. You could try command line:
-python run_TEGM.py -genome test/fungi_genome -query test/P450 -taxon fungi -out test_out
+python run_TEGM.py -genome test/fungi_genome -query test/P450 -taxon fungi -o test_out
 If you only want to extract terpenoid biosynthetic tailoring enzymes. Try command line:
-python run_TEGM.py -genome test/fungi_genome -query test/P450 -taxon fungi -core_gene test/core_gene -out test_out
+python run_TEGM.py -genome test/fungi_genome -query test/P450 -taxon fungi -core_gene test/core_gene -o test_out
