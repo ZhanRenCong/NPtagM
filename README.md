@@ -21,11 +21,14 @@ This program operates depending on the Python environment (Python Version 3.0 or
        conda deactivate
    2.3 activate environment
        conda activate antismash
-3. Install AUGUSTUS with the following command:
+   2.4 re-install bio-gff
+      antiSMASH 7.0 install bio-gff 0.7.1 as default setting. However, NPtagM need this package in 0.7.0.
+      conda install bcbio-gff=0.7.0
+4. Install AUGUSTUS with the following command:
    sudo apt install augustus augustus-data augustus-doc
-4. Install CD-Hit with the following command:
+5. Install CD-Hit with the following command:
    sudo apt install cd-hit
-5. Get the NPtagM package with the following command:
+6. Get the NPtagM package with the following command:
    5.1 Install git:
       sudo apt install git
    5.2 Get NPtagM package from github:
