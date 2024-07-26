@@ -30,9 +30,9 @@ parser.add_argument('-protein',default=None, help='The annotation of genomes wil
 parser.add_argument('-cdhit_cutoff', default = 0.9, help='Default: 0.9. A lot of potential tailoring enzymes will be extracted from genomes.'
                                                          'To save time for further biosynthetic gene clusters detection. CD-hit is used to de-replicate by sequence identity.'
                                                          'The user could choose the identity cutoff here', required=False)
-parser.add_argument('-blast_evalue_TE', default='1E-15', help='Default:1E-15. The evalue used in extraction of homologous tailoring enzymes by blastp', required=False)
+parser.add_argument('-blast_evalue_TE', default='1E-15', help='Default:1E-5. The evalue used in extraction of homologous tailoring enzymes by blastp', required=False)
 parser.add_argument('-hmm_evalue_TE', default='0.01', help='Default:0.01. The evalue used in extraction of homologous tailoring enzymes by hmm', required=False)
-parser.add_argument('-blast_evalue_CE', default='1E-15', help='Default:1E-15. The evalue used in extraction of homologous core enzymes by blastp', required=False)
+parser.add_argument('-blast_evalue_CE', default='1E-15', help='Default:1E-5. The evalue used in extraction of homologous core enzymes by blastp', required=False)
 parser.add_argument('-hmm_evalue_CE', default='0.01', help='Default:0.01. The evalue used in extraction of homologous core enzymes by hmm', required=False)
 parser.add_argument('-core_gene', default=None, help='Default:all types of natural products biosynthesis core gene. The user could also use their own core gene. '
                                                      'If the user want to use their own core gene, a folder which containing all core gene query files need to be provided.'
