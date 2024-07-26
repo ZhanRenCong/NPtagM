@@ -6,7 +6,7 @@ This program operates depending on the Python environment (Python Version 3.0 or
    The installation guide of conda could be found in https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent
    If you have already installed conda, this step can be skipped.
 2. Install antiSMASH through bioconda
-   The users need to first install the antiSMASH using Bioconda. Because our algorithm shared same environment with antiSMASH. So this step is also created the right environment for NPtagM. The installation of antiSMASH through Docker or other ways are not OK.
+   The users need to first install the antiSMASH using Bioconda. Because our algorithm shared same environment with antiSMASH. This step is also created the right environment for NPtagM. The installation of antiSMASH through Docker or other ways are not OK.
    The installation guide could be found in https://docs.antismash.secondarymetabolites.org/install/.
    2.1 install Bioconda:
        After installing conda, perform a one-time set up of Bioconda with the following commands. This will modify your ~/.condarc file:
